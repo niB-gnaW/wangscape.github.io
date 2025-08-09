@@ -1,35 +1,51 @@
-# Wang Bin's Personal Academic Website
+# Wangscape - Forest Microclimate & 3D Heterogeneity Research
 
-This is my personal academic website hosted on GitHub Pages, showcasing my research, models, tools, and datasets.
+Welcome to Wangscape, a research initiative dedicated to advancing our understanding of forest microclimate through innovative 3D modeling and remote sensing technologies.
+
+## About Wangscape
+
+Wangscape represents cutting-edge research at the intersection of forest ecology, physics, and computer science. We develop open-source tools and methodologies to quantify and understand the complex three-dimensional nature of forest environments and their microclimate dynamics.
 
 ## Website Structure
 
-- **About**: Brief introduction and contact information
-- **Research**: Overview of research interests and areas
-- **Models**: Machine learning models and algorithms developed
-- **Tools**: Software tools and applications
-- **Data**: Datasets created and maintained
-- **Publications**: List of academic publications
-- **Contact**: Contact information
+- **Home**: Overview of our research vision and key approaches
+- **Research**: Detailed exploration of our four main research areas
+- **Tools**: Open-source software packages and tools we've developed
+- **Publications**: Key scientific papers and research outputs
+- **About**: Information about the initiative and team
 
-## Setup Instructions
+## Featured Tools
 
-1. Replace placeholder content in `index.html` with your actual information
-2. Add your profile photo as `profile.jpg` in the root directory
-3. Update social media links and email addresses
-4. Add your actual research projects, models, tools, and datasets
-5. Update the publications section with your papers
+### FLApy (Forest Light Analyzer Python Package)
+- Comprehensive platform for 3D light heterogeneity analysis
+- Available on [PyPI](https://pypi.org/project/FLApy/)
+- Monthly downloads: 200+
 
-## Customization
+### Other Tools
+- Forest Digital Twin System
+- ESHI (Enhanced Synthetic Hemispherical Image) - Coming Soon
+- GlobalForMetMapping - In Development
 
-- Modify `style.css` to change colors, fonts, and layout
-- Add more sections as needed in `index.html`
-- Update `CNAME` if you want to use a custom domain
+## Key Research Areas
+
+1. **3D Light Heterogeneity** - Novel metrics for quantifying forest light environments
+2. **Physical Microclimate Models** - Process-based simulation of forest microclimate
+3. **UAV-LiDAR Applications** - High-resolution 3D forest structure mapping
+4. **Plant-Environment Interactions** - Understanding ecological responses to microclimate
+
+## Contact
+
+- Email: wb931022@hotmail.com
+- GitHub: https://github.com/niB-gnaW
 
 ## Deployment
 
-This site is automatically deployed to GitHub Pages at https://[your-username].github.io
+This website is automatically deployed to GitHub Pages: https://wangscape.github.io
 
 ## License
 
 MIT License
+
+---
+
+*Wangscape - Advancing Forest Ecology Through Technology*

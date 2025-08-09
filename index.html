@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wang Bin - Personal Academic Page</title>
+    <title>Wangscape - Forest Microclimate & 3D Heterogeneity Research</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -11,37 +11,46 @@
     <header>
         <nav>
             <div class="nav-container">
-                <h1>Wang Bin</h1>
+                <div class="logo">
+                    <h1>Wangscape</h1>
+                    <span class="tagline">Exploring Forest Microclimate in 3D</span>
+                </div>
                 <ul>
-                    <li><a href="#about">About</a></li>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="#research">Research</a></li>
-                    <li><a href="#models">Models</a></li>
                     <li><a href="#tools">Tools</a></li>
-                    <li><a href="#data">Data</a></li>
                     <li><a href="#publications">Publications</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <section id="about" class="hero">
+    <section id="home" class="hero">
         <div class="container">
-            <div class="profile">
-                <img src="profile.jpg" alt="Wang Bin" class="profile-img">
-                <div class="info">
-                    <h2>Wang Bin</h2>
-                    <p class="title">Researcher / Developer</p>
-                    <p class="description">
-                        Welcome to my academic page. I focus on developing innovative models, tools, and datasets 
-                        for advancing research in [Your Research Field].
-                    </p>
-                    <div class="social-links">
-                        <a href="https://github.com/yourusername"><i class="fab fa-github"></i></a>
-                        <a href="https://scholar.google.com/citations?user=YOURID"><i class="fas fa-graduation-cap"></i></a>
-                        <a href="https://linkedin.com/in/yourusername"><i class="fab fa-linkedin"></i></a>
-                        <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+            <div class="hero-content">
+                <h1 class="hero-title">Understanding Forest Microclimate Through 3D Heterogeneity</h1>
+                <p class="hero-subtitle">
+                    Advancing forest ecology research through innovative 3D modeling, physical mechanism simulation, 
+                    and near-surface remote sensing technologies
+                </p>
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-cube"></i>
+                        <span>3D Forest Structure</span>
                     </div>
+                    <div class="feature">
+                        <i class="fas fa-temperature-high"></i>
+                        <span>Microclimate Modeling</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-satellite"></i>
+                        <span>Remote Sensing</span>
+                    </div>
+                </div>
+                <div class="hero-cta">
+                    <a href="#tools" class="btn-primary">Explore Our Tools</a>
+                    <a href="#research" class="btn-secondary">Learn More</a>
                 </div>
             </div>
         </div>
@@ -49,95 +58,119 @@
 
     <section id="research" class="section">
         <div class="container">
-            <h2>Research Interests</h2>
-            <div class="research-grid">
-                <div class="research-item">
-                    <i class="fas fa-brain"></i>
-                    <h3>Machine Learning</h3>
-                    <p>Description of your ML research focus</p>
+            <h2 class="section-title">Research Focus</h2>
+            <p class="section-intro">
+                Our research bridges the gap between forest structure and microclimate dynamics, 
+                developing novel approaches to understand and quantify the complex interactions within forest ecosystems.
+            </p>
+            
+            <div class="research-areas">
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>3D Light Heterogeneity</h3>
+                    <p>Pioneering the development of 3D spatial heterogeneity metrics for forest light environments, 
+                    enabling unprecedented insights into canopy structure effects on understory conditions.</p>
+                    <a href="#" class="learn-more">Learn more →</a>
                 </div>
-                <div class="research-item">
-                    <i class="fas fa-chart-line"></i>
-                    <h3>Data Analysis</h3>
-                    <p>Description of your data analysis work</p>
+                
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-cloud-sun"></i>
+                    </div>
+                    <h3>Physical Microclimate Models</h3>
+                    <p>Building process-based models that simulate temperature, humidity, and radiation dynamics 
+                    through energy balance and turbulent exchange mechanisms.</p>
+                    <a href="#" class="learn-more">Learn more →</a>
                 </div>
-                <div class="research-item">
-                    <i class="fas fa-robot"></i>
-                    <h3>AI Applications</h3>
-                    <p>Description of your AI applications</p>
+                
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-drone"></i>
+                    </div>
+                    <h3>UAV-LiDAR Applications</h3>
+                    <p>Leveraging cutting-edge UAV and LiDAR technologies to capture high-resolution 
+                    3D forest structure data for ecological modeling and monitoring.</p>
+                    <a href="#" class="learn-more">Learn more →</a>
+                </div>
+                
+                <div class="research-card">
+                    <div class="research-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Plant-Environment Interactions</h3>
+                    <p>Investigating how microclimate heterogeneity shapes plant functional traits 
+                    and community assembly in forest understories.</p>
+                    <a href="#" class="learn-more">Learn more →</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="models" class="section bg-light">
+    <section id="tools" class="section bg-light">
         <div class="container">
-            <h2>Developed Models</h2>
-            <div class="card-grid">
-                <div class="card">
-                    <h3>Model Name 1</h3>
-                    <p>Brief description of the model and its applications.</p>
-                    <div class="card-links">
-                        <a href="#" class="btn">Demo</a>
-                        <a href="#" class="btn-outline">Code</a>
-                        <a href="#" class="btn-outline">Paper</a>
+            <h2 class="section-title">Open Source Tools</h2>
+            <p class="section-intro">
+                We develop and maintain open-source software tools to advance forest ecology research worldwide.
+            </p>
+            
+            <div class="tools-showcase">
+                <div class="tool-featured">
+                    <div class="tool-header">
+                        <h3>FLApy</h3>
+                        <span class="tool-badge">Featured</span>
+                    </div>
+                    <p class="tool-description">
+                        Forest Light Analyzer Python Package - A comprehensive platform for analyzing 3D light heterogeneity 
+                        and microclimate in forest ecosystems. Implements novel voxel-based and spatial clustering approaches 
+                        for quantifying canopy structure effects.
+                    </p>
+                    <div class="tool-stats">
+                        <div class="stat">
+                            <i class="fas fa-download"></i>
+                            <span>200+ monthly downloads</span>
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-star"></i>
+                            <span>Used in international projects</span>
+                        </div>
+                    </div>
+                    <div class="tool-links">
+                        <a href="https://pypi.org/project/FLApy/" class="btn">
+                            <i class="fab fa-python"></i> PyPI
+                        </a>
+                        <a href="https://github.com/niB-gnaW/FLApy" class="btn-outline">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="#" class="btn-outline">
+                            <i class="fas fa-book"></i> Documentation
+                        </a>
                     </div>
                 </div>
-                <div class="card">
-                    <h3>Model Name 2</h3>
-                    <p>Brief description of the model and its applications.</p>
-                    <div class="card-links">
-                        <a href="#" class="btn">Demo</a>
-                        <a href="#" class="btn-outline">Code</a>
-                        <a href="#" class="btn-outline">Paper</a>
+                
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <h4>Forest Digital Twin System</h4>
+                        <p>Ecological constraint-based 3D forest modeling workflow integrating LESS and Helios++ 
+                        for virtual forest reconstruction.</p>
+                        <a href="https://github.com/niB-gnaW/A_ESH_2025_V2" class="tool-link">
+                            View on GitHub <i class="fas fa-external-link-alt"></i>
+                        </a>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="tools" class="section">
-        <div class="container">
-            <h2>Tools & Software</h2>
-            <div class="card-grid">
-                <div class="card">
-                    <h3>Tool Name 1</h3>
-                    <p>Description of the tool and its functionality.</p>
-                    <div class="card-links">
-                        <a href="#" class="btn">Download</a>
-                        <a href="#" class="btn-outline">Documentation</a>
+                    
+                    <div class="tool-card">
+                        <h4>ESHI</h4>
+                        <span class="coming-soon">Coming Soon</span>
+                        <p>Enhanced Synthetic Hemispherical Image tool for high-precision sky view factor 
+                        estimation from multi-platform LiDAR data.</p>
                     </div>
-                </div>
-                <div class="card">
-                    <h3>Tool Name 2</h3>
-                    <p>Description of the tool and its functionality.</p>
-                    <div class="card-links">
-                        <a href="#" class="btn">Download</a>
-                        <a href="#" class="btn-outline">Documentation</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="data" class="section bg-light">
-        <div class="container">
-            <h2>Datasets</h2>
-            <div class="card-grid">
-                <div class="card">
-                    <h3>Dataset Name 1</h3>
-                    <p>Description of the dataset, size, and format.</p>
-                    <div class="card-links">
-                        <a href="#" class="btn">Download</a>
-                        <a href="#" class="btn-outline">Details</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <h3>Dataset Name 2</h3>
-                    <p>Description of the dataset, size, and format.</p>
-                    <div class="card-links">
-                        <a href="#" class="btn">Download</a>
-                        <a href="#" class="btn-outline">Details</a>
+                    
+                    <div class="tool-card">
+                        <h4>GlobalForMetMapping</h4>
+                        <span class="coming-soon">In Development</span>
+                        <p>Global-scale forest microclimate mapping dataset providing hourly temperature 
+                        and humidity grids. Release planned for Winter 2025.</p>
                     </div>
                 </div>
             </div>
@@ -146,40 +179,101 @@
 
     <section id="publications" class="section">
         <div class="container">
-            <h2>Selected Publications</h2>
-            <div class="publication-list">
-                <div class="publication">
-                    <h4>Paper Title 1</h4>
-                    <p class="authors">Wang B., Co-author 1, Co-author 2</p>
-                    <p class="venue">Conference/Journal Name, 2024</p>
-                    <div class="pub-links">
-                        <a href="#">PDF</a> | <a href="#">Code</a> | <a href="#">BibTeX</a>
-                    </div>
+            <h2 class="section-title">Key Publications</h2>
+            
+            <div class="publication-highlight">
+                <div class="pub-badge">Featured Paper</div>
+                <h3>FLApy: A Python package for evaluating the 3D light availability heterogeneity within forest communities</h3>
+                <p class="pub-authors">Wang, B., Proctor, C., Yao, Z., et al.</p>
+                <p class="pub-venue">Methods in Ecology and Evolution, 2024, 15(9): 1540-1552</p>
+                <p class="pub-impact">Top-tier journal in Applied Ecology (IF: 8.9)</p>
+                <div class="pub-links">
+                    <a href="https://doi.org/10.1111/2041-210X.14377" class="pub-link">
+                        <i class="fas fa-file-pdf"></i> Full Text
+                    </a>
+                    <a href="https://github.com/niB-gnaW/FLApy" class="pub-link">
+                        <i class="fas fa-code"></i> Code
+                    </a>
                 </div>
-                <div class="publication">
-                    <h4>Paper Title 2</h4>
-                    <p class="authors">Wang B., Co-author 1, Co-author 2</p>
-                    <p class="venue">Conference/Journal Name, 2023</p>
-                    <div class="pub-links">
-                        <a href="#">PDF</a> | <a href="#">Code</a> | <a href="#">BibTeX</a>
-                    </div>
+            </div>
+            
+            <div class="publications-grid">
+                <div class="pub-item">
+                    <h4>Detection and Quantification of Forest-Agriculture Ecotones Using UAV Imagery</h4>
+                    <p class="pub-meta">Diversity, 2022 | <a href="#">View Paper</a></p>
                 </div>
+                <div class="pub-item">
+                    <h4>Urban Agglomeration of Kunming and Yuxi Cities: Policy Drivers and Environmental Constraints</h4>
+                    <p class="pub-meta">Landscape Ecology, 2019 | <a href="#">View Paper</a></p>
+                </div>
+                <div class="pub-item">
+                    <h4>A Novel Forest Microclimate Model Reveals Wind-Mediated Asymmetry at Forest Edges</h4>
+                    <p class="pub-meta">Agricultural and Forest Meteorology, In Revision</p>
+                </div>
+            </div>
+            
+            <div class="view-all">
+                <a href="#" class="btn-outline">View All Publications</a>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section bg-light">
+    <section id="about" class="section bg-light">
         <div class="container">
-            <h2>Contact</h2>
-            <div class="contact-info">
-                <p><i class="fas fa-envelope"></i> your.email@example.com</p>
-                <p><i class="fas fa-map-marker-alt"></i> Your Institution, City, Country</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Wangscape</h2>
+                    <p>
+                        Wangscape is a research initiative led by Dr. Bin Wang, focusing on advancing our understanding 
+                        of forest microclimate through innovative 3D modeling and remote sensing approaches. 
+                        Our work bridges ecology, physics, and computer science to tackle complex environmental challenges.
+                    </p>
+                    <p>
+                        Based at Yunnan University with collaborations spanning from the Chinese Academy of Sciences 
+                        to the University of Windsor, we are committed to open science and developing tools that 
+                        empower researchers worldwide.
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:wb931022@hotmail.com"><i class="fas fa-envelope"></i> Contact</a>
+                        <a href="https://github.com/niB-gnaW"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Publications</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Open Tools</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Active Projects</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Wang Bin. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Wangscape</h3>
+                    <p>Advancing Forest Ecology Through Technology</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/niB-gnaW">GitHub</a>
+                    <a href="https://pypi.org/project/FLApy/">PyPI</a>
+                    <a href="mailto:wb931022@hotmail.com">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wangscape. All rights reserved. | Last updated: December 2024</p>
+            </div>
+        </div>
     </footer>
 
     <script src="script.js"></script>
