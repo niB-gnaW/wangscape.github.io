@@ -1,7 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wang Bin - Personal Academic Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1>Wang Bin</h1>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#models">Models</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#data">Data</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="hero">
+        <div class="container">
+            <div class="profile">
+                <img src="profile.jpg" alt="Wang Bin" class="profile-img">
+                <div class="info">
+                    <h2>Wang Bin</h2>
+                    <p class="title">Researcher / Developer</p>
+                    <p class="description">
+                        Welcome to my academic page. I focus on developing innovative models, tools, and datasets 
+                        for advancing research in [Your Research Field].
+                    </p>
+                    <div class="social-links">
+                        <a href="https://github.com/yourusername"><i class="fab fa-github"></i></a>
+                        <a href="https://scholar.google.com/citations?user=YOURID"><i class="fas fa-graduation-cap"></i></a>
+                        <a href="https://linkedin.com/in/yourusername"><i class="fab fa-linkedin"></i></a>
+                        <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="section">
+        <div class="container">
+            <h2>Research Interests</h2>
+            <div class="research-grid">
+                <div class="research-item">
+                    <i class="fas fa-brain"></i>
+                    <h3>Machine Learning</h3>
+                    <p>Description of your ML research focus</p>
+                </div>
+                <div class="research-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Data Analysis</h3>
+                    <p>Description of your data analysis work</p>
+                </div>
+                <div class="research-item">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI Applications</h3>
+                    <p>Description of your AI applications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="models" class="section bg-light">
+        <div class="container">
+            <h2>Developed Models</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Model Name 1</h3>
+                    <p>Brief description of the model and its applications.</p>
+                    <div class="card-links">
+                        <a href="#" class="btn">Demo</a>
+                        <a href="#" class="btn-outline">Code</a>
+                        <a href="#" class="btn-outline">Paper</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Model Name 2</h3>
+                    <p>Brief description of the model and its applications.</p>
+                    <div class="card-links">
+                        <a href="#" class="btn">Demo</a>
+                        <a href="#" class="btn-outline">Code</a>
+                        <a href="#" class="btn-outline">Paper</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="section">
+        <div class="container">
+            <h2>Tools & Software</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Tool Name 1</h3>
+                    <p>Description of the tool and its functionality.</p>
+                    <div class="card-links">
+                        <a href="#" class="btn">Download</a>
+                        <a href="#" class="btn-outline">Documentation</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Tool Name 2</h3>
+                    <p>Description of the tool and its functionality.</p>
+                    <div class="card-links">
+                        <a href="#" class="btn">Download</a>
+                        <a href="#" class="btn-outline">Documentation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="data" class="section bg-light">
+        <div class="container">
+            <h2>Datasets</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Dataset Name 1</h3>
+                    <p>Description of the dataset, size, and format.</p>
+                    <div class="card-links">
+                        <a href="#" class="btn">Download</a>
+                        <a href="#" class="btn-outline">Details</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>Dataset Name 2</h3>
+                    <p>Description of the dataset, size, and format.</p>
+                    <div class="card-links">
+                        <a href="#" class="btn">Download</a>
+                        <a href="#" class="btn-outline">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="section">
+        <div class="container">
+            <h2>Selected Publications</h2>
+            <div class="publication-list">
+                <div class="publication">
+                    <h4>Paper Title 1</h4>
+                    <p class="authors">Wang B., Co-author 1, Co-author 2</p>
+                    <p class="venue">Conference/Journal Name, 2024</p>
+                    <div class="pub-links">
+                        <a href="#">PDF</a> | <a href="#">Code</a> | <a href="#">BibTeX</a>
+                    </div>
+                </div>
+                <div class="publication">
+                    <h4>Paper Title 2</h4>
+                    <p class="authors">Wang B., Co-author 1, Co-author 2</p>
+                    <p class="venue">Conference/Journal Name, 2023</p>
+                    <div class="pub-links">
+                        <a href="#">PDF</a> | <a href="#">Code</a> | <a href="#">BibTeX</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> your.email@example.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Your Institution, City, Country</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Wang Bin. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
